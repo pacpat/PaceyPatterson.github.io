@@ -1,0 +1,108 @@
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+body {
+    background-color: #8ee5f58a;
+    background-image: linear-gradient(to bottom, #641313, #8ee5f58a);
+    color: #00250e;
+}
+
+footer {
+    background-color: rgb(194, 193, 189);
+}
+
+p {
+    color: aquamarine;
+}
+
+#content {
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#main {
+    min-width: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+#aside {
+    flex: 6;
+    min-width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    gap: 0em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    border: solid 2px #000000;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+td {
+    padding: 0.5em;
+    border: solid 2px #000000;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: #925ca3;
+}
+
+nav a:visited {
+    color: #f3b04b;
+}
+
+nav a:hover {
+    color: #a42A2a;
+}
